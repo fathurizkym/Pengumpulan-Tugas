@@ -1,2 +1,4 @@
 # Pengumpulan-Tugas
-Repository ini digunakan untuk media pengumpulan tugas JCDS Fathur Rizky Maulana, ID : JCDS 0110 015
+Repository ini digunakan sebagai media pengumpulan tugas JCDS 
+Student Name : Fathur Rizky Maulana
+ID Number : JCDS 0110 015
