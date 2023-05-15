@@ -1,0 +1,65 @@
+def crypt(assign):
+    if assign == 'a':
+        return 'E'
+    elif assign == 'b':
+        return 'F'
+    elif assign == 'c':
+        return 'G'
+    elif assign == 'd':
+        return 'H'
+    elif assign == 'e':
+        return 'I'
+    elif assign == 'f':
+        return 'J'
+    elif assign == 'g':
+        return 'K'
+    elif assign == 'h':
+        return 'L'
+    elif assign == 'i':
+        return 'M'
+    elif assign == 'j':
+        return 'N'
+    elif assign == 'k':
+        return 'O'
+    elif assign == 'l':
+        return 'P'
+    elif assign == 'm':
+        return 'Q'
+    elif assign == 'n':
+        return 'R'
+    elif assign == 'o':
+        return 'S'
+    elif assign == 'p':
+        return 'T'
+    elif assign == 'q':
+        return 'U'
+    elif assign == 'r':
+        return 'V'
+    elif assign == 's':
+        return 'W'
+    elif assign == 't':
+        return 'X'
+    elif assign == 'u':
+        return 'Y'
+    elif assign == 'v':
+        return 'z'
+    elif assign == 'w':
+        return 'A'
+    elif assign == 'x':
+        return 'B'
+    elif assign == 'y':
+        return 'C'
+    elif assign == 'z':
+        return 'D'
+    elif assign == ' ':
+        return ' '
+    else:
+        print(f'{str(assign)}')
+
+if __name__ == '__main__':
+    
+    input = 'Meet me by the rose bushes tonight.'
+    
+    for i in input.lower():
+        i = crypt(i)
+        print(i, end='')
